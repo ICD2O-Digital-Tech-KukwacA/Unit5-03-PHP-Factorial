@@ -5,10 +5,10 @@
 
     // Setting the variables and validating input
     $userNum = $_POST['userNumber'];
-    if ($userNum < 0) {
-        echo "Please enter a non-negative integer.";
-        exit;
-    }
+    if (!ctype_digit($userNum)) {
+    echo "Please enter a non-negative whole number without decimals.";
+    exit;
+}
 
     do {
         $result = $result * $counter;

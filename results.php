@@ -5,11 +5,10 @@
 
     // Setting the variables and validating input
     $userNum = $_POST['userNumber'];
-    if (!is_numeric($userNum) || intval($userNum) != $userNum || $userNum < 0) {
+    if ($userNum < 0) {
         echo "Please enter a non-negative integer.";
         exit;
     }
-    $userNum = intval($userNum);
 
     do {
         $result = $result * $counter;

@@ -18,4 +18,4 @@
 ?>
 	<!-- display the results -->
     <h4>Results:</h4>
-    <?php echo $result ?>
+    <?php echo $userNum . "!" . " = " . $result ?>

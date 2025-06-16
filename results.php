@@ -12,6 +12,7 @@
 
     do {
         $result = $result * $counter;
+        $counter++;
     } while ($counter <= $userNum);
 
 ?>

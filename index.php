@@ -21,11 +21,11 @@
       <input type="integer" id="userNumber" name="userNumber"><br><br>
       <input type="submit" value="Display Factorial">
     </form>
-
+    <br>
     <!-- iframe for the results to show on the web page. -->
     <iframe id="results" name="results">
       <div id="user-info">
-        <div id="$number"></div>
+        <div id="$result"></div>
       </div>
     </iframe>  
   </body>
